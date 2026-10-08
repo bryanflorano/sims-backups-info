@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIMS Backups</title>
+  <style>
+    body { font: 1rem/1.65 system-ui, sans-serif; max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem; color: #243044; background: #fff; }
+    h1, h2 { line-height: 1.25; }
+    a { color: #1757a6; }
+    footer { margin-top: 2rem; border-top: 1px solid #d8dee8; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SIMS Backups</h1>
+    <p>A private-use backup and recovery connection for the Uni Magical Lit SIMS system, operated by its owner. It is not a public service, customer portal, or Google product.</p>
+    <h2>Purpose</h2>
+    <p>The connection is designed to store encrypted recovery backups in the owner's Google Drive account, using restic for backup encryption and rclone for Drive access.</p>
+    <h2>Google Drive access</h2>
+    <p>The connection requests the <code>drive.file</code> permission to create, read, update, and delete files and folders it creates or that are explicitly authorized for it. It does not request general access to every file in Google Drive. Access is used for backup, restore verification, recovery, and retention management.</p>
+    <p>Only the owner or an authorized operator should authorize this connection. This website does not provide sign-in, accept uploads, or expose backup contents.</p>
+    <h2>Contact</h2>
+    <p>For support or privacy questions, contact the app owner using the support email shown on the Google authorization screen.</p>
+  </main>
+  <footer><a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>

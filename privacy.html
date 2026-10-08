@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy | SIMS Backups</title>
+  <style>
+    body { font: 1rem/1.65 system-ui, sans-serif; max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem; color: #243044; background: #fff; }
+    h1, h2 { line-height: 1.25; }
+    a { color: #1757a6; }
+    footer { margin-top: 2rem; border-top: 1px solid #d8dee8; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SIMS Backups privacy policy</h1>
+    <p>Last updated: October 9, 2026.</p>
+    <p>SIMS Backups is a private-use backup and recovery connection operated by the owner of the Uni Magical Lit SIMS system. This policy describes its intended use of Google account authorization and backup data.</p>
+    <h2>Data accessed and its purpose</h2>
+    <p>The connection uses Google's <code>drive.file</code> permission to manage files and folders it creates or that are explicitly authorized for it. It uses that access to upload encrypted backups, list backup metadata, download backups for verification or recovery, and remove backups under the owner's retention policy. It does not request general access to unrelated Drive files.</p>
+    <p>Recovery sets may contain SIMS database records, uploaded media, application release files, and configuration. These can include personal or confidential business information. Restic encrypts backup contents before upload; Google Drive still processes account information and storage and request metadata. Encryption does not remove the need to secure the backup host and credentials.</p>
+    <h2>Authorization and security</h2>
+    <p>Google authorization credentials and the backup encryption password are kept in protected configuration on authorized machines, not on this website or in its public repository. Authorized operators can access decrypted recovery data when restoring or verifying backups. The backup password must also be kept separately by the owner for recovery.</p>
+    <h2>Sharing and service providers</h2>
+    <p>Google Drive stores encrypted backup data. The authorized backup host processes source data and verification copies. The connection does not sell Google user data, use it for advertising, or send it to AI services for model training. Backup access is limited to the owner and authorized operators, subject to service-provider processing and applicable legal requirements.</p>
+    <p>Use of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+    <h2>Retention and deletion</h2>
+    <p>The owner controls backup retention. Configured retention rules may remove older backups; until enabled, backups remain unless the owner removes them. Temporary verification copies are removed after successful cleanup; interrupted operations may require operator cleanup. Removing a record from live SIMS does not immediately remove it from existing recovery snapshots.</p>
+    <p>The owner can revoke the connection through <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revocation stops authorized access but does not itself delete existing backups. Those can be removed separately through Google Drive, including its Trash controls.</p>
+    <h2>This website</h2>
+    <p>These static pages contain no sign-in, upload form, analytics scripts, or application cookies. GitHub Pages hosts them and may process visitor connection information under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>. No SIMS records or backup contents are published here.</p>
+    <h2>Contact and updates</h2>
+    <p>For support, privacy questions, or deletion requests, contact the app owner using the support email shown on the Google authorization screen. Changes to this policy will be published here with an updated date.</p>
+  </main>
+  <footer><a href="index.html">SIMS Backups home</a></footer>
+</body>
+</html>
